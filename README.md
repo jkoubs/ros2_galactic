@@ -26,7 +26,7 @@ Next we will create the container:
 xhost +local:root
 ```
 
-We can now run the image as a container named <strong>galactic_tb_env_container</strong> using docker-compose :
+We can now run the image as a container named <strong>galactic_env_container</strong> using docker-compose :
 
 ```bash
 docker-compose up
