@@ -2,7 +2,7 @@ version: '3' # version of docker-compose
 
 services:
   tb_env_ros2: # name of the container
-    image: galactic_tb_env:latest
+    image: galactic_env:latest
     container_name: galactic_env_container
     network_mode: host
     privileged: true
